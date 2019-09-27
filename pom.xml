@@ -8,6 +8,7 @@
   <packaging>kjar</packaging>
   <name>ruleTest</name>
   <description></description>
+  <!--
   <distributionManagement>
     <repository>
       <id>releases</id>
@@ -18,7 +19,8 @@
       <url>http://nexus-proj1.apps.hmiura03.lab.rdu2.cee.redhat.com/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
-  <properties>
+  -->  
+<properties>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
     <version.redhat.ba>7.4.1.GA-redhat-00001</version.redhat.ba>
