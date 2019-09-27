@@ -11,21 +11,21 @@
   <distributionManagement>
     <repository>
       <id>releases</id>
-      <url>http://nexus-rhpam73.apps.hmiura01.lab.pnq2.cee.redhat.com/nexus/content/repositories/releases/</url>
+      <url>http://nexus-proj1.apps.hmiura03.lab.rdu2.cee.redhat.com/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
-      <url>http://nexus-rhpam73.apps.hmiura01.lab.pnq2.cee.redhat.com/nexus/content/repositories/snapshots/</url>
+      <url>http://nexus-proj1.apps.hmiura03.lab.rdu2.cee.redhat.com/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
   <properties>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
-    <version.redhat.ba>7.2.1.GA-redhat-00002</version.redhat.ba>
+    <version.redhat.ba>7.4.1.GA-redhat-00001</version.redhat.ba>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <version.drools>7.14.0.Final-redhat-00004</version.drools>
+    <version.drools>7.23.0.Final-redhat-00003</version.drools>
     <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
   </properties>
   <dependencyManagement>
