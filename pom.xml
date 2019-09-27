@@ -8,6 +8,7 @@
   <packaging>kjar</packaging>
   <name>ruleTest</name>
   <description></description>
+
   <!--
   <distributionManagement>
     <repository>
