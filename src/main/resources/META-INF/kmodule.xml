@@ -1,6 +1,6 @@
 <kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <kbase name="testKieBase" default="true" eventProcessingMode="stream" equalsBehavior="identity">
-    <ksession name="testKieSession" type="stateless" default="true" clockType="realtime">
+    <ksession name="testKieSession" type="statefull" default="true" clockType="realtime">
       <listeners>
         <ruleRuntimeEventListener type="org.drools.core.event.DebugRuleRuntimeEventListener"/>
         <agendaEventListener type="org.drools.core.event.DebugRuleRuntimeEventListener"/>
@@ -8,7 +8,8 @@
     </ksession>
   </kbase>
   <kbase name="defaultKieBase" default="false"  eventProcessingMode="stream" equalsBehavior="identity" packages="com.redhat.gss">
-    <ksession name="defaultKieSession" type="statefull" default="false" clockType="realtime">
+    <ksession name="defaultKieSession" type="stateless" default="false" clockType="realtime">
+      <fileLogger file="debugInfo" threaded="true" interval="2" />
       <listeners>
         <ruleRuntimeEventListener type="org.drools.core.event.DebugRuleRuntimeEventListener"/>
         <agendaEventListener type="org.drools.core.event.DebugAgendaEventListener"/>
