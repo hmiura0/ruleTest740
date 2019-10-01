@@ -4,6 +4,7 @@ import java.lang.Number;
 
 rule "ruleIsAdult"
 	dialect "mvel"
+	ruleflow-group "group1"
 	when
 		$p : Person( age >= 20 )
 	then
