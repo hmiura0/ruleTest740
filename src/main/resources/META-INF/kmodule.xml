@@ -3,7 +3,7 @@
     <ksession name="testKieSession" type="stateful" default="true" clockType="realtime">
       <listeners>
         <ruleRuntimeEventListener type="org.drools.core.event.DebugRuleRuntimeEventListener"/>
-        <agendaEventListener type="org.drools.core.event.DebugRuleRuntimeEventListener"/>
+        <agendaEventListener type="org.drools.core.event.DebugAgendaEventListener"/>
       </listeners>
     </ksession>
   </kbase>
