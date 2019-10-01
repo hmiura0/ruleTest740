@@ -9,7 +9,7 @@
   </kbase>
   <kbase name="defaultKieBase" default="false"  eventProcessingMode="stream" equalsBehavior="identity" packages="com.redhat.gss">
     <ksession name="defaultKieSession" type="stateless" default="false" clockType="realtime">
-      <fileLogger file="debugInfo" threaded="true" interval="2" />
+      <!--fileLogger file="debugInfo" threaded="true" interval="2" /-->
       <listeners>
         <ruleRuntimeEventListener type="org.drools.core.event.DebugRuleRuntimeEventListener"/>
         <agendaEventListener type="org.drools.core.event.DebugAgendaEventListener"/>
