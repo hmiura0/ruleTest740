@@ -1,6 +1,7 @@
 package com.redhat.gss.ruletest;
 
 rule "isStudent"
+ruleflow-group "check"
 when
     $p:com.redhat.gss.Person(age <= 15 && age >= 7)
 then
